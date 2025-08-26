@@ -12,7 +12,8 @@ const config: Config = {
         background: '#0a0a0a',
         foreground: '#ffffff',
         muted: '#888888',
-        accent: '#00ff88',
+        accent: '#a8c4c1',        // Changed to sage green
+        'accent-secondary': '#ce9d7a', // Copper
         'brand-sage': '#a8c4c1',  // Sage green from logo
         'brand-copper': '#ce9d7a', // Copper from IQ
         'code-bg': '#1a1a1a',

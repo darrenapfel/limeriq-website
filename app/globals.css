@@ -24,7 +24,11 @@
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 bg-accent text-background font-mono font-bold rounded-md hover:bg-accent/90 transition-colors;
+    @apply px-6 py-3 bg-brand-sage text-background font-mono font-bold rounded-md hover:bg-accent-secondary transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-accent-secondary text-background font-mono font-bold rounded-md hover:bg-brand-sage transition-colors;
   }
 
   .terminal {

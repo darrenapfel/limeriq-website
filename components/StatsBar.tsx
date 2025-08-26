@@ -55,7 +55,7 @@ export default function StatsBar() {
         transition={{ delay: 0.1 }}
       >
         <span>⭐</span>
-        <span className="text-accent font-bold">{formatNumber(stats.githubStars)}</span>
+        <span className="text-brand-sage font-bold text-lg">{formatNumber(stats.githubStars)}</span>
         <span className="text-muted">stars</span>
       </motion.div>
       
@@ -66,7 +66,7 @@ export default function StatsBar() {
         transition={{ delay: 0.2 }}
       >
         <span>👥</span>
-        <span className="text-accent font-bold">{formatNumber(stats.contributors)}</span>
+        <span className="text-accent-secondary font-bold text-lg">{formatNumber(stats.contributors)}</span>
         <span className="text-muted">contributors</span>
       </motion.div>
       
@@ -77,7 +77,7 @@ export default function StatsBar() {
         transition={{ delay: 0.3 }}
       >
         <span>🚀</span>
-        <span className="text-accent font-bold">{formatNumber(stats.weeklyWorkflows)}</span>
+        <span className="text-brand-sage font-bold text-lg">{formatNumber(stats.weeklyWorkflows)}</span>
         <span className="text-muted">this week</span>
       </motion.div>
 
@@ -88,7 +88,7 @@ export default function StatsBar() {
         transition={{ delay: 0.4 }}
       >
         <span>💬</span>
-        <span className="text-accent font-bold">{formatNumber(stats.discordMembers)}</span>
+        <span className="text-accent-secondary font-bold text-lg">{formatNumber(stats.discordMembers)}</span>
         <span className="text-muted">discord</span>
       </motion.div>
     </div>

@@ -5,21 +5,21 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 py-20 relative overflow-hidden">
-      {/* Subtle brandmark in background */}
-      <div className="absolute inset-0 flex items-center justify-center opacity-[0.02] pointer-events-none">
+      {/* Brandmark watermark in background */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-[0.08] pointer-events-none">
         <img 
           src="/images/limerIQ-brandmark.png" 
           alt="" 
-          className="w-[600px] h-[600px] object-contain"
+          className="w-[500px] h-[500px] object-contain"
         />
       </div>
       <motion.h1 
-        className="text-5xl md:text-7xl font-mono font-bold mb-6"
+        className="text-5xl md:text-7xl font-mono font-bold mb-6 relative z-10"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        The IQ Behind Your AI
+        The <span className="text-accent-secondary">IQ</span> Behind Your <span className="text-brand-sage">AI</span>
       </motion.h1>
       
       <motion.p 
@@ -32,14 +32,16 @@ export default function Hero() {
       </motion.p>
       
       <motion.div
-        className="bg-code-bg rounded-lg px-6 py-3 flex items-center gap-4 mb-8 border border-muted"
+        className="bg-code-bg rounded-lg px-6 py-3 flex items-center gap-4 mb-8 border-2 border-brand-sage"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <code className="font-mono text-accent">$ npm install -g limeriq</code>
+        <code className="font-mono">
+          <span className="text-accent">$</span> <span className="text-foreground">npm install -g</span> <span className="text-accent-secondary">limeriq</span>
+        </code>
         <button 
-          className="text-muted hover:text-foreground transition-colors"
+          className="text-brand-sage hover:text-accent-secondary transition-colors"
           onClick={() => navigator.clipboard.writeText('npm install -g limeriq')}
         >
           📋

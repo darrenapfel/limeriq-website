@@ -4,7 +4,7 @@ export default function ProblemSolution() {
       <div className="max-w-4xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h3 className="font-mono text-error mb-4 text-xl">AI without IQ:</h3>
+            <h3 className="font-mono text-error mb-4 text-xl">AI without <span className="text-accent-secondary">IQ</span>:</h3>
             <div className="text-3xl">💡→💭→🤔→😵→💥</div>
             <div className="mt-4 text-muted">
               <p>Hour 1: &ldquo;This is amazing!&rdquo;</p>
@@ -14,7 +14,7 @@ export default function ProblemSolution() {
             </div>
           </div>
           <div>
-            <h3 className="font-mono text-accent mb-4 text-xl">AI with limerIQ:</h3>
+            <h3 className="font-mono text-brand-sage mb-4 text-xl">AI with limer<span className="text-accent-secondary">IQ</span>:</h3>
             <div className="text-3xl">💡→📝→✓→📦→🚀</div>
             <div className="mt-4 text-foreground">
               <p>Step 1 → Analyze requirements</p>
@@ -41,8 +41,8 @@ export default function ProblemSolution() {
           </div>
         </div>
 
-        <div className="mt-8 p-6 border border-accent rounded-lg bg-code-bg">
-          <p className="font-mono text-accent mb-3">Early metrics from our prototype:</p>
+        <div className="mt-8 p-6 border-2 border-brand-sage rounded-lg bg-code-bg">
+          <p className="font-mono text-brand-sage mb-3">Early metrics from our prototype:</p>
           <ul className="space-y-2 font-mono">
             <li className="flex items-center gap-2">
               <span className="text-accent">✓</span>

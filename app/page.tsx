@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="flex gap-6">
           <a 
             href="https://github.com/limeriq/limeriq" 
-            className="hover:text-accent transition-colors"
+            className="text-muted hover:text-brand-sage transition-colors font-medium"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ export default function HomePage() {
           </a>
           <a 
             href="https://discord.gg/limeriq" 
-            className="hover:text-accent transition-colors"
+            className="text-muted hover:text-accent-secondary transition-colors font-medium"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +38,7 @@ export default function HomePage() {
           </a>
           <a 
             href="https://github.com/limeriq/limeriq/docs" 
-            className="hover:text-accent transition-colors"
+            className="text-muted hover:text-brand-sage transition-colors font-medium"
             target="_blank"
             rel="noopener noreferrer"
           >
