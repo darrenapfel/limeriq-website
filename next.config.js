@@ -6,7 +6,6 @@ const nextConfig = {
   },
   compress: true,
   poweredByHeader: false,
-  swcMinify: true,
 }
 
 module.exports = nextConfig
