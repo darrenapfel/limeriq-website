@@ -1,3 +1,5 @@
+'use client'
+
 import CodeBlock from './CodeBlock'
 
 export default function QuickStart() {

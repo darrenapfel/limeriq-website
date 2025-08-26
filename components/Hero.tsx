@@ -4,7 +4,15 @@ import { motion } from 'framer-motion'
 
 export default function Hero() {
   return (
-    <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 py-20">
+    <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 py-20 relative overflow-hidden">
+      {/* Subtle brandmark in background */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-[0.02] pointer-events-none">
+        <img 
+          src="/images/limerIQ-brandmark.png" 
+          alt="" 
+          className="w-[600px] h-[600px] object-contain"
+        />
+      </div>
       <motion.h1 
         className="text-5xl md:text-7xl font-mono font-bold mb-6"
         initial={{ opacity: 0, y: 20 }}
@@ -55,6 +63,16 @@ export default function Hero() {
       >
         Yeah, we&apos;re fixing that.
       </motion.p>
+      
+      <motion.div 
+        className="mt-12 text-sm text-muted font-mono"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+      >
+        <p>Orchestrating Haiku → Sonnet → Opus</p>
+        <p className="text-xs mt-1 opacity-60">Because even AI needs poetry in motion</p>
+      </motion.div>
     </section>
   )
 }

@@ -1,3 +1,5 @@
+'use client'
+
 export default function VSCodeSection() {
   return (
     <section className="py-20 px-4">

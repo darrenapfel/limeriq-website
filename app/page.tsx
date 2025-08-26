@@ -12,7 +12,13 @@ export default function HomePage() {
     <main className="min-h-screen">
       {/* Navigation */}
       <nav className="flex justify-between items-center px-6 py-4 border-b border-muted sticky top-0 bg-background/80 backdrop-blur-md z-50">
-        <div className="font-mono font-bold text-xl">limerIQ</div>
+        <div className="h-8">
+          <img 
+            src="/images/limerIQ-wordmark.png" 
+            alt="limerIQ" 
+            className="h-full w-auto"
+          />
+        </div>
         <div className="flex gap-6">
           <a 
             href="https://github.com/limeriq/limeriq" 
@@ -61,13 +67,20 @@ export default function HomePage() {
       <Community />
 
       {/* Footer */}
-      <footer className="py-8 px-4 border-t border-muted text-center">
-        <p className="text-muted font-mono mb-2">
-          Free forever for individuals • Apache 2.0 License
-        </p>
-        <p className="text-sm text-muted">
-          We built this for ourselves. Seems to work pretty well.
-        </p>
+      <footer className="py-12 px-4 border-t border-muted">
+        <div className="max-w-4xl mx-auto flex flex-col items-center">
+          <img 
+            src="/images/limerIQ-brandmark.png" 
+            alt="limerIQ" 
+            className="w-16 h-16 mb-4 opacity-60"
+          />
+          <p className="text-muted font-mono mb-2 text-center">
+            Free forever for individuals • Apache 2.0 License
+          </p>
+          <p className="text-sm text-muted text-center">
+            We built this for ourselves. Seems to work pretty well.
+          </p>
+        </div>
       </footer>
     </main>
   )

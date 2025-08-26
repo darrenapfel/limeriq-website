@@ -13,6 +13,8 @@ const config: Config = {
         foreground: '#ffffff',
         muted: '#888888',
         accent: '#00ff88',
+        'brand-sage': '#a8c4c1',  // Sage green from logo
+        'brand-copper': '#ce9d7a', // Copper from IQ
         'code-bg': '#1a1a1a',
         error: '#ff4444',
         warning: '#ffaa00',
