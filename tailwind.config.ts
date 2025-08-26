@@ -22,7 +22,8 @@ const config: Config = {
       },
       fontFamily: {
         mono: ['SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'monospace'],
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: ['Nunito', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        brand: ['Nunito', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in',

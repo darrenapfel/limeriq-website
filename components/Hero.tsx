@@ -14,12 +14,19 @@ export default function Hero() {
         />
       </div>
       <motion.h1 
-        className="text-5xl md:text-7xl font-mono font-bold mb-6 relative z-10"
+        className="text-5xl md:text-7xl font-brand font-bold mb-6 relative z-10 flex items-center justify-center flex-wrap gap-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        The <span className="text-accent-secondary">IQ</span> Behind Your <span className="text-brand-sage">AI</span>
+        <span className="text-accent-secondary">The</span>
+        <img 
+          src="/images/limerIQ-IQ-brandmark.png" 
+          alt="IQ" 
+          className="inline-block h-[1em] w-auto align-middle"
+          style={{ height: '0.9em', marginTop: '-0.05em' }}
+        />
+        <span className="text-accent-secondary">Behind Your AI</span>
       </motion.h1>
       
       <motion.p 

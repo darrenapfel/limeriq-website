@@ -25,7 +25,7 @@ export default function ProblemSolution() {
           </div>
         </div>
 
-        <h2 className="text-3xl font-mono font-bold mb-8 text-center">
+        <h2 className="text-3xl font-brand font-bold mb-8 text-center">
           Structure Beats Instructions
         </h2>
         
