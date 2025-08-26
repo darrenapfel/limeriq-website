@@ -11,8 +11,8 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       {/* Navigation */}
-      <nav className="flex justify-between items-center px-6 py-4 border-b border-muted sticky top-0 bg-background/80 backdrop-blur-md z-50">
-        <div className="h-8">
+      <nav className="flex justify-between items-center px-6 py-3 border-b border-muted sticky top-0 bg-background/80 backdrop-blur-md z-50">
+        <div className="h-10">
           <img 
             src="/images/limerIQ-wordmark.png" 
             alt="limerIQ" 
